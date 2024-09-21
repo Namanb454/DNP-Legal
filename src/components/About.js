@@ -25,7 +25,7 @@ const About = () => {
     return (
         <div id='about'>
             {/* Features */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
                 {/* Grid */}
                 <h2 className='md:text-5xl text-3xl font-semibold text-center p-10'>About Us</h2>
                 <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">

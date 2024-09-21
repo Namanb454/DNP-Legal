@@ -36,7 +36,7 @@ const Service = () => {
     return (
         <div id='services'>
             {/* Icon Blocks */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-24 h-full mx-auto bg-neutral-900 text-white">
+            <div className="px-4 py-10 sm:px-0 lg:px-0 lg:py-24 h-full mx-auto bg-neutral-900 text-white">
                 <h2 className='md:text-5xl text-3xl font-semibold text-center p-10'>Services</h2>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-12">
                     {/* Icon Block */}

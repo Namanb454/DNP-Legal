@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div className='container'>
             {/* <h2 className='text-6xl mb-24'>Naman</h2> */}
-            <div className='lg:w-screen h-screen w-[100vw] bg-cover' style={{
+            <div className='h-screen w-full bg-cover' style={{
                 backgroundImage: 'url(justice2.jpg)'
             }}>
                 <div className='w-full h-full mx-auto py-20 text-center backdrop-brightness-50 backdrop-blur-sm text-white md:space-y-10 space-y-16'>
