@@ -57,7 +57,7 @@ const Header = () => {
                             <a className="text-white hover:text-amber-500 text-left hover:tracking-widest scroll-smooth hover:scroll-auto transition-all block px-3 p-2 w-fit" href="#about">About Us</a>
                             <a className="text-white hover:text-amber-500 text-left hover:tracking-widest scroll-smooth hover:scroll-auto transition-all block px-3 p-2 w-fit" href="#services">Services</a>
                             <a className="text-white hover:text-amber-500 text-left hover:tracking-widest scroll-smooth hover:scroll-auto transition-all block px-3 p-2 w-fit" href="#team">Our Team</a>
-                            <a className="text-white hover:text-amber-500 text-left hover:tracking-widest scroll-smooth hover:scroll-auto transition-all block px-3 p-2 w-fit" href="#cliens">Clients</a>
+                            <a className="text-white hover:text-amber-500 text-left hover:tracking-widest scroll-smooth hover:scroll-auto transition-all block px-3 p-2 w-fit" href="#clients">Clients</a>
                             <a className="text-white border border-amber-500 hover:text-amber-500 text-left hover:tracking-widest scroll-smooth hover:scroll-auto transition-all block px-3 p-2 w-fit" href="#contact">Contact Us</a>
                         </div>
                     </div>
@@ -138,7 +138,7 @@ const Header = () => {
                             Home
                         </motion.a>
                         <motion.a
-                            href='/'
+                            href='#about'
                             onClick={() => setIsOpen(false)}
                             ref={menuRef}
                             initial={{ x: 100, opacity: 0, scale: 0 }}
@@ -149,7 +149,7 @@ const Header = () => {
                             About Us
                         </motion.a>
                         <motion.a
-                            href='/'
+                            href='#services'
                             onClick={() => setIsOpen(false)}
                             ref={menuRef}
                             initial={{ x: 100, opacity: 0, scale: 0 }}
@@ -160,7 +160,7 @@ const Header = () => {
                             Services
                         </motion.a>
                         <motion.a
-                            href='/'
+                            href='#team'
                             onClick={() => setIsOpen(false)}
                             ref={menuRef}
                             initial={{ x: 100, opacity: 0, scale: 0 }}
@@ -171,7 +171,7 @@ const Header = () => {
                             Our Team
                         </motion.a>
                         <motion.a
-                            href='/'
+                            href='#clients'
                             onClick={() => setIsOpen(false)}
                             ref={menuRef}
                             initial={{ x: 100, opacity: 0, scale: 0 }}
@@ -182,7 +182,7 @@ const Header = () => {
                             Clients
                         </motion.a>
                         <motion.a
-                            href='/'
+                            href='#contact'
                             onClick={() => setIsOpen(false)}
                             ref={menuRef}
                             initial={{ x: 100, opacity: 0, scale: 0 }}
